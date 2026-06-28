@@ -86,12 +86,5 @@ The portfolio is designed as an interactive sandbox playground, enabling visitor
     ```
     The application will launch on `http://localhost:3000/`.
 
----
 
-## 📄 License & Contact
 
-*   **Developer**: Monira Akter
-*   **Email**: monira2002akter@gmail.com
-*   **Phone**: +8801890350902
-*   **Address**: Dhaka, Bangladesh
-*   **Source Code**: [GitHub Portfolio](https://github.com/monira2002)
