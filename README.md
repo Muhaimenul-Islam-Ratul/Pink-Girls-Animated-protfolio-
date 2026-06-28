@@ -1,5 +1,11 @@
 <div align="center">
   <img src="assets/cover.png" alt="Monira Akter Portfolio Header Banner" width="100%">
+  
+  <br>
+  
+  <a href="https://girlsprotfilio.netlify.app/">
+    <img src="https://img.shields.io/badge/Live_Demo-Netlify-00AD9F?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo" />
+  </a>
 </div>
 
 # 🌸 Monira Akter - Portfolio & Research Sandbox
