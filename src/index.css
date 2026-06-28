@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "Fira Code", monospace;
+  
+  --color-currant: #3B1E2E;         /* Deep Art Currant Ink - dark purple-deep burgundy */
+  --color-currant-light: #5A354A;   /* Slightly lighter elegant plum */
+  --color-currant-dark: #1E1218;    /* Artistic custom terminal background */
+  --color-blush: #FFF5F7;           /* Beautiful warm Artistic Pale Blush background */
+  --color-blush-dark: #FEDAE0;      /* Rich pastel pink border tint */
+  --color-blush-card: rgba(255, 255, 255, 0.45); /* High-contrast white/glass palette */
+  --color-peony: #FF1493;           /* Electric Hot Peony Pink Accent */
+  --color-peony-light: #FF69B4;     /* Medium pink */
+  --color-dusty: #7A586B;           /* Elegant dusty plum red for structural labels */
+}
+
+/* Glassmorphism card utility matching Artistic Flair */
+.glass-pane {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 20, 147, 0.15);
+}
+
+.glass-pane-dark {
+  background: rgba(30, 18, 24, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 20, 147, 0.25);
+}
+
+.glow-peony {
+  box-shadow: 0 4px 30px rgba(255, 20, 147, 0.12);
+}
+
+/* Custom transitions and scrollbar */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF5F7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7A586B;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF1493;
+}
+
+/* Floating animation styles */
+@keyframes bloom-pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+.animate-bloom {
+  animation: bloom-pulse 4s ease-in-out infinite;
+}
+
